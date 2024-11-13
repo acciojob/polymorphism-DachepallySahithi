@@ -12,10 +12,10 @@ public class Main {
             return x*y;
          }
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Product p = new Product();
-        System.out.println("Product of 3 and 4 (int): " + p.product(3, 4) );
-        System.out.println("Product of 2, 3 and 4 (int): " + p.product(2, 3, 4) );
-        System.out.println("Product of 2.5 and 3.5 (int): " + p.product(2.5, 3.5) );
+        System.out.println("Product of 3 and 4 (int): " + p.product(3, 4));
+        System.out.println("Product of 2, 3 and 4 (int): " + p.product(2, 3, 4));
+        System.out.println("Product of 2.5 and 3.5 (double): " + p.product(2.5, 3.5));
     }
 }
